@@ -1,0 +1,67 @@
+body {margin: 0;}
+#header {position: fixed;
+  display: inline-flex;
+  font-family: Verdana;
+  background-color: white;
+  width:100%;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  height:80px;
+  align-content: center;align-items: center;}
+#header a{color:black;padding:10px 10px;}
+#header nav {margin-left:auto;padding-right: 40px;}
+#logo img {padding-right:5px;}
+#logo {display:flex; flex-direction: row; padding-left: 30px;align-items: center;padding-right: 700px;}
+.logo {color:MediumAquamarine;}
+/*div {border:black 1px solid;}*/
+#main {display: inline-flex;margin: 0 auto 78px auto;width:1232px;padding-top:100px;}
+.column {margin-right:30px;}
+.column.large {
+  width: 630px;display: flex; flex-direction: column;
+}
+
+.column.medium {
+  width: 300px;display: flex; flex-direction: column;
+}
+
+.column.small {
+  width: 240px;display: flex; flex-direction: column;
+}
+#mainpic {background-image: url("main.png");background-size: auto;height:300px;display:flex;}
+#fall {background-image: url("fall.png");height:300px;display: flex;}
+#hipster {background-image: url("hipster.png"); height:300px;display: flex;}
+#cat {background-image: url("cat.png"); height:300px;display: flex;}
+
+.storyH {  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;}
+
+.story { font-family: Georgia;
+  font-size: 17px;
+  color: black;}
+#mainStory { font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;}
+
+  footer {
+
+    display:flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    background-color: MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+    height:300px;
+  }
+  #nav2 {display: inline-block;}
+  #copy {}
+
+  #mT {font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;}
